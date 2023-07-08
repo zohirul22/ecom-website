@@ -17,6 +17,22 @@
     text-align: center;
 }
 
+.btn-3 p{
+  font-size: 11px;
+}
+
+.btn-3{
+    font-size: 12px;
+    transition: .3s;
+}
+.btn-3:hover{
+    background-color: #2aa6c5fa;
+    box-shadow: none;
+}
+
+
+
+
 .button {
     display: block;
     width: 100%;
@@ -70,6 +86,31 @@
 
 .price h3 {
     color: rgb(12, 236, 98);
+}
+
+/* from css */
+
+.first-part{
+    padding: 20px ;
+    border: 1px solid #317C8E;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"]{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+/* from css */
+.bannar-footer-img{
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* bannar css end */
