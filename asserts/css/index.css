@@ -189,7 +189,29 @@ label {
     background-color: aliceblue;
     display: inline;
     border-radius: 5px;
+    position: relative;
 }
+
+.box{
+    position: absolute;
+    padding: 2px 8px;
+    background-color: rgb(204, 204, 204);
+    width: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 6%;
+   
+   
+}
+
+.fa-sharp{
+    color: red;
+}
+.fa-regular{
+    color: green;
+}
+
 
 .reviews-title::after {
     content: "";
@@ -295,6 +317,9 @@ label {
     body{
         text-align: center;
     }
+  label{
+    text-align: left;
+  }
     .header {
         display: flex;
         flex-direction: column;
