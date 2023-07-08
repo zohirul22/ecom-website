@@ -125,6 +125,11 @@ label {
     margin-top: 20px;
 }
 
+video {
+    width: 100%;
+    height: auto;
+  }
+
 /* bannar css end */
 
 /* card css start */
